@@ -1,0 +1,748 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+#topDiv{
+  font-size: 9pt;
+  font-weight: bold;
+  color: rgb(113, 111, 111);
+  margin: 0 auto;
+  align-items:center;
+}
+
+.cotyListCon{
+  display:flex;
+  margin: 20px 100px;
+}
+
+.coyList-Cont{
+  display: flex;
+}
+
+.coyList{
+  margin:0 20px;
+}
+
+.coyContact{
+  display: flex;
+}
+.WC{
+  display: flex;
+ 
+}
+
+.waLogo{
+  margin: 0 50px;
+}
+
+.country{
+  margin: 0 auto;
+  justify-content: center;
+  border:1px solid;
+  border-radius: 10%;
+  padding: 0.3rem 0.7rem;
+  gap: 5px;
+}
+
+
+   /* HERO SECTION */
+
+#contTwo{
+  width: 98%;
+  margin: 0 auto;
+  background-color:#efe5d8;
+}
+
+.heroCont{
+  position: relative;
+}
+
+.menuToFixed{
+  padding: 0 6%;
+}
+
+.heroToggler{
+  position:absolute;
+  left: 3px;
+  bottom: 3px;
+}
+
+.mainServices{
+  margin: 50px 0 0 0;
+  justify-content: space-between;
+}
+
+.textCont{
+  margin: 0 0 0 100px;
+  font-family: SF Pro,sans-serif;
+  margin-bottom: 50px;
+}
+
+.bigText{
+  font-size: 4.2rem;
+  font-weight: bold;
+  color: rgb(71, 70, 70);
+  font-family: "dm serif display",serif;
+  margin-bottom: 20px;
+}
+
+.smallText{
+  color: #708095;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 2.25rem;
+}
+
+.textContLabel{
+  font-weight: 700;
+}
+
+.mainServInput{
+  width: 100%;
+  padding: 30px 15px;
+  border-radius: 4px;
+  border: 0px solid #e8e8e8;
+  height: 80px;
+}
+
+
+.heroNav{
+  padding: 10px;
+  margin-left: 250px;
+  font-size: 10pt;
+  font-weight: bolder;
+  color: rgb(113, 111, 111);
+}
+
+.sCt{
+  padding-right: 8%;
+  color: rgb(113, 111, 111);
+}
+
+.handCard img{
+  width: 60%;
+  float: right;
+}
+
+.heroEnd{
+  background-color: pink;
+  text-align: center;
+  padding: 25px;
+  font-weight:bold;
+  font-size: 14pt;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.heroEnd a {
+  color: #45494f;
+}
+
+
+   /* CARD SECTION */
+ 
+  #cardSection {
+    width: 85%;
+    margin: 20px auto;
+    
+  }
+
+.cHead{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto 10px;
+  padding: 0 2%;
+ 
+}
+
+.cHead h3{
+  font-family: "dm serif display",serif;
+  color: #384a62;
+  font-weight: bold;
+}
+
+.allP{
+  color:#d77f81;
+  line-height: 2.2;
+  font-weight: 600;
+}
+
+.c-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#cardSection .card{
+  flex-basis: 23%;
+  width: 100%;
+}
+
+
+
+.card img{
+  width:100%;
+  height: 14rem;
+  transition: transform .2s;
+}
+
+.card-body{
+  font-weight: bold;
+}
+
+.card-body h5{
+  color: #384a62;
+  font-size: large;
+}
+
+.card-text{
+  color: #708095;
+  font-size: .8rem;
+  
+}
+
+.card-text2 h3{
+  color: #384a62;
+  font-size: 1.25rem;
+}
+
+.card-text2 p{
+  color: #708095;
+}
+
+   /* POPULAR CARD SECTION */
+#cardSection2{
+  width: 85%;
+  margin: 20px auto;
+}
+.cHead2{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto 10px;
+  padding: 0 2%;
+ 
+}
+
+.cHead2 h3{
+  font-family: "dm serif display",serif;
+  color: #384a62;
+  font-weight: bold;
+}
+
+.allP2{
+  color:#d77f81;
+  line-height: 2.2;
+  font-weight: 600;
+}
+
+.c-container2{
+  display: flex;
+  /* width: 100%; */
+}
+
+  .pCard{
+  flex-basis: 50%;
+  width: 100%;
+}
+
+
+
+
+
+    /* BRANDS SECTION */
+#pBrands{
+  width: 80%;
+  margin: 90px auto 0;
+  font-weight: bold;
+}
+
+.pBrandHeader{
+  font-family: "dm serif display",serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: #384a62;
+  
+}
+
+.pBrandText{
+  color: #506683;
+  font-family: SF Pro,sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  width: 60%;
+  margin-bottom: 2rem;
+}
+
+.xxx{
+  background-color: black;
+}
+
+
+     /* TESTIMONIAL SECTION */
+
+#pty{
+  width: 100%;
+  background-color: #edf6fd;
+  font-weight: bold;
+}
+
+.pty-container{
+  width: 80%;
+  margin: 20px auto;
+}
+
+.ptyHeader{
+  font-family: "dm serif display",serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: #384a62;
+  margin: 40px 0;
+  padding-top: 5%;
+}
+
+.t-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+ }
+
+
+.t-container{
+  flex-basis: 30%;
+  margin-right: 20px;
+  background-color: #fff;
+}
+
+.t-head{ 
+  padding: 3% 3%;
+}
+
+.t-head-icon{
+  border: 1px solid rgb(125, 137, 148);
+  border-radius: 50%;
+}
+
+.t-body{
+  padding: 2% 6%;
+  margin-left: 70px;
+  font-weight: normal;
+}
+
+
+    /* ASSURANCE SECTION */
+
+#p-assure{
+  width:100%;
+}
+
+.p-assure-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.p-assure-header{
+  font-family: "dm serif display",serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  line-height: 2.25rem;
+  color: #384a62;
+  margin: 40px 0;
+  padding-top: 5%;
+}
+
+.p-assure-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.assure{
+  flex-basis: 30%;
+  width: 25%;
+  display: flex;
+  gap: 10px;
+  text-align: left;
+}
+
+     /* TECH SECTION */
+
+#techCoy{
+  background-color: #f7f6f4;
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+
+.techCoy-head{
+  width: 80%;
+  margin: 40px auto;
+  font-family: "dm serif display",serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: #384a62;
+  padding-top: 5%;
+}
+
+.techCoy-container{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coy{
+  flex-basis: 20%;
+}
+
+.coyLogo{
+  margin-bottom: 10px;
+}
+
+.coyLink{
+  color: #384a62;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+     /* FOOTER SECTION */
+ 
+#p-footer{
+  width: 100%;
+  font-family: SF Pro,sans-serif;
+}     
+
+.phmf{
+  background-color: #384a62;;
+}
+
+.phmf-container{
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 600;
+  display: flex;
+  padding: 5% 0;
+}
+
+.ptivo{
+  flex-basis: 25%;
+}
+
+.f-header{
+  color: #ece8d9;
+  line-height: 1.75rem;
+  font-size: 1.125rem;
+  padding-bottom: 1rem;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+ li{
+  list-style: none;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  padding-bottom: 0.5rem;
+  color: #fff;
+}
+
+.pay img{
+  width: 200px;
+}
+
+.ship img{
+  width: 150px;
+}
+
+
+.copyW{
+  width: 100%;
+  background-color: #cbcac8;
+  color: #384a62;
+  font-weight: 400;
+  padding: 2rem 0;
+}
+
+
+    
+
+            /* MEDIA QUERIES */
+
+
+@media (max-width: 768px){
+
+
+  .cotyListCon{
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    padding: 3% 6%;
+  }
+  .coyContact{
+    margin: 0;
+  }
+  .WC{
+    display: flex;
+  }
+  .waLogo{
+    margin: 0 ;
+  }
+  .country{
+    margin: 0;
+  }
+
+
+  #contTwo{
+    width: 100%;
+  }
+  .mainServices{
+    width: 90%;
+    padding-bottom: 3rem;
+  }
+  .textCont{
+    margin: 0 30px;
+    width: 100%;
+  }
+  .bigText{
+    font-size: 2.2rem;
+  }
+  .handCard img{
+    display: none;
+  }
+  .heroEnd{
+    background-color: #a5d5d5;;
+    font-weight:bold;
+    font-size: 13pt;
+    width: 100%;
+  }
+  
+  
+
+
+  #cardSection{
+    width: 98%;
+  }
+  .cHead h1{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+.c-container{
+   width: 100%;
+   flex-direction: column;
+}
+
+
+
+#pBrands{
+  width:90%;
+}
+.pBrandText{
+  width:100%;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+.pBrandLogo img{
+  width: 100%;
+}
+
+
+.pty-container{
+  width: 90%;
+  margin: 0 auto;
+}
+.t-wrapper{
+  width: 100%;
+  flex-direction: column;
+}
+.t-container{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.p-assure-container{
+  width:90%
+}
+.p-assure-header{
+  font-size: 1.5rem
+}
+.p-assure-wrapper{
+  flex-direction: column;
+}
+.assure{
+  width: 60%;
+  flex-basis: 100%;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.assure-text{
+  width: 100%;
+}
+
+
+.techCoy-head{
+  width: 90%;
+}
+.techCoy-container{
+  width: 90%;
+  flex-wrap: wrap;
+}
+.coy{
+  flex-basis: 40%;
+  margin-bottom: 40px;
+}
+
+
+.phmf-container{
+  width: 90%;
+  flex-direction: column;
+}
+li{
+  text-align: start;
+  align-items: start;
+  align-content: start;
+}
+
+  }
+
+
+
+
+  @media (max-width:992px) {
+
+     
+  #cardSection {
+    width: 95%;
+    margin: 20px auto;
+  }
+    .c-container{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    #cardSection .card{
+      flex-basis: 48%;
+      width: 100%;
+    }
+
+
+    #pBrands{
+      width:95%;
+    }
+    .pBrandText{
+      width:90%;
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+    .pBrandLogo img{
+      width: 100%;
+    }
+
+
+    .pty-container{
+      width: 95%;
+    }
+    .t-wrapper{
+      display: flex;
+      flex-wrap: wrap;
+     }
+    .t-container{
+      flex-basis: 47%;
+      margin-bottom: 30px;
+    }
+
+
+    .p-assure-container{
+      width: 95%;
+      padding: 5% 0;
+    }
+    .p-assure-header{
+      margin: 15px 0;
+      padding-top: 5%;
+    }
+    .p-assure-wrapper{
+      flex-wrap: wrap;
+      gap: 50px;
+    }
+    .assure{
+      flex-basis: 45%;
+      width: 100%;
+    }
+    .assure-text{
+      width: 40%;
+    }
+
+
+    #techCoy{
+      background-color: #f7f6f4;
+      font-weight: bold;
+      padding-top: 2%;
+    }
+    .techCoy-head{
+      width: 95%;
+    }
+    .techCoy-container{
+      width: 95%;
+      flex-wrap: wrap;
+      justify-content: start;
+      padding-bottom: 4%;
+    }
+    .coy{
+      flex-basis: 30%;
+      margin: 5px 8px 30px 0 ;
+    }
+    
+
+    .phmf-container{
+      width: 95%;
+      flex-wrap: wrap;
+    }
+    .ptivo{
+      flex-basis: 45%;
+    }
+
+  }
+
+
+
