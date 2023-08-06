@@ -12,7 +12,7 @@ const Card = (props) => {
         
           
               <div className="card mb-sm-4">
-                <img src={props.img} alt="" />
+                <img src={props.img} alt="" className="cImg" />
                 <div className="card-body">
                   <h5 className="card-title mb-3">{props.title}</h5>
                   <div className="card-text mb-2">STARTING AT</div>

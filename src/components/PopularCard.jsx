@@ -1,37 +1,25 @@
-import React from 'react'
-import { Navigate, useNavigate } from 'react-router-dom';
-
-
+import React from "react";
+import { Navigate, useNavigate } from "react-router-dom";
+import Card from "./Card";
 
 const PopularCard = (props) => {
-
-  const goTo = ()=>{
+  const goTo = () => {
     Navigate(props.points);
-  }
+  };
   return (
-      
     <>
-   
-
-        <div className="card mb-sm-4 p">
-        <img src={props.img} alt="" />
-        <div className="card-body">
-          <h5 className="card-title mb-3">{props.title}</h5>
-          <div className="card-text mb-2">STARTING AT</div>
-          <div className="d-flex gap-1 card-text2">
-            <h3 className="mb-4">
-              <i class="fa-solid fa-naira-sign"></i>{props.price}
-            </h3>
-            <p>{props.amount}</p>
-          </div>
-          <button onClick={() => goTo ()} className="btn btn-danger">
-             {props.press}
-          </button>
+      <div id="cardSection">
+        <div className="cHead">
+          <h3>Popular Products</h3>
+          <div className="allP">See All Categories</div>
         </div>
+         <div className="pcardBdy">
+           <Card img="image/Greetings-card.png" title="Greeting Cards" price="19,000" amount="per 50" press="Browse Greeting Car..."/>
+           <Card img="image/stickers.png" title="Stickers" price="5,400" amount="per 75" press="Browse Stickers"/>
+         </div>
       </div>
-
     </>
   );
 };
 
-export default PopularCard
+export default PopularCard;

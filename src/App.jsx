@@ -59,33 +59,10 @@ useEffect
               <Card title="Off White T-shirts" price="3,499" img="image/White-tshirt.png" amount="per 1" press="Browse Off White T-..."></Card>
               <Card title="A4 Branded Paper Bags" price="60,950" img="image/paper-bags.png" amount="per 100" press="Browse A4 Branded P..."></Card>
               <Card title="A4 Courier Bags" price="16,000" img="image/Courier-bag.jpeg" amount="per 100" press="Browse A4 Courier B..."></Card>
-                 
             </div>
-            <div className="cHead">
-          <h3>Popular Products</h3>
-          <div className="allP">See All Categories</div>
-        </div>
-        <div className="c-container">
-              <Card title="Two-sided Business Crads" price="15,000" img="image/two-sided.png" amount="per 100" press="Browse Two-sided Bu..." points="/signup"></Card>
-              <Card title="A5 Flyers (Single Sided)" price="7,500" img="image/A5_flyer.png" amount="per 100" press="Browse A5 flyers (S..." points="facebook.com"></Card>
-             
-                 
-            </div>
-
         </div>
       </div>
-       <div id="cardSection2">
-           <div className="cHead2">
-              <h3>Popular Products</h3>
-          <div className="allP2">See All Categories</div>
-          <div className="container-fluid cBody2">
-            <div className="c-container2">
-               <Card title="Greetings Cards" price="17,250" img="image/two-sided.png" amount="per 75" press="Browse Greetings Car..." points="/signup"></Card>
-               <Card title="Stickers" price="4,949" img="image/A5_flyer.png" amount="per 50" press="Browse Stickers" points="facebook.com"></Card>   
-          </div>
-      </div>
-     </div>
-       </div>
+      <PopularCard/>
       <Brands />
       <Test />
       <Assurance />

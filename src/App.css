@@ -1,45 +1,17 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+ul{
+  display: flex;
+  flex-direction: column;
+  padding: unset;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+ li{
+  list-style: none;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  padding-bottom: 0.5rem;
+  color: #fff;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
 
 #topDiv{
   font-size: 9pt;
@@ -184,7 +156,6 @@
   #cardSection {
     width: 85%;
     margin: 20px auto;
-    
   }
 
 .cHead{
@@ -192,28 +163,29 @@
   justify-content: space-between;
   margin: 60px auto 10px;
   padding: 0 2%;
- 
 }
-
 .cHead h3{
   font-family: "dm serif display",serif;
   color: #384a62;
   font-weight: bold;
 }
-
 .allP{
   color:#d77f81;
   line-height: 2.2;
   font-weight: 600;
 }
-
 .c-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
 }
-
+.cImg{
+  transition: ease-in-out;
+}
+.cImg:hover{
+  transform: scale(0.8);
+}
 #cardSection .card{
   flex-basis: 23%;
   width: 100%;
@@ -252,39 +224,10 @@
 }
 
    /* POPULAR CARD SECTION */
-#cardSection2{
-  width: 85%;
-  margin: 20px auto;
-}
-.cHead2{
-  display: flex;
-  justify-content: space-between;
-  margin: 60px auto 10px;
-  padding: 0 2%;
- 
-}
-
-.cHead2 h3{
-  font-family: "dm serif display",serif;
-  color: #384a62;
-  font-weight: bold;
-}
-
-.allP2{
-  color:#d77f81;
-  line-height: 2.2;
-  font-weight: 600;
-}
-
-.c-container2{
-  display: flex;
-  /* width: 100%; */
-}
-
-  .pCard{
-  flex-basis: 50%;
-  width: 100%;
-}
+   .pcardBdy{
+    display: flex;
+    gap:2rem;
+  }
 
 
 
@@ -375,12 +318,10 @@
 #p-assure{
   width:100%;
 }
-
 .p-assure-container{
   width: 80%;
   margin: 0 auto;
 }
-
 .p-assure-header{
   font-family: "dm serif display",serif;
   font-size: 1.875rem;
@@ -390,12 +331,10 @@
   margin: 40px 0;
   padding-top: 5%;
 }
-
 .p-assure-wrapper{
   display: flex;
   justify-content: space-between;
 }
-
 .assure{
   flex-basis: 30%;
   width: 25%;
@@ -472,19 +411,6 @@
   line-height: 1.75rem;
   font-size: 1.125rem;
   padding-bottom: 1rem;
-}
-ul{
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-}
-
- li{
-  list-style: none;
-  font-size: .875rem;
-  line-height: 1.25rem;
-  padding-bottom: 0.5rem;
-  color: #fff;
 }
 
 .pay img{
@@ -567,10 +493,19 @@ ul{
     font-size: 1.875rem;
     line-height: 2.25rem;
 }
+#cardSection .card{
+  margin: 15px 0;
+}
 .c-container{
    width: 100%;
    flex-direction: column;
 }
+
+.pcardBdy{
+ flex-direction: column;
+ gap: 0.5rem;
+}
+
 
 
 
@@ -605,7 +540,8 @@ ul{
   width:90%
 }
 .p-assure-header{
-  font-size: 1.5rem
+  font-size: 1.5rem;
+  width:100%
 }
 .p-assure-wrapper{
   flex-direction: column;
@@ -614,10 +550,13 @@ ul{
   width: 60%;
   flex-basis: 100%;
   flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .assure-text{
   width: 100%;
+}
+.assure-text h6, p{
+  font-size: 0.9rem;
 }
 
 
@@ -627,9 +566,10 @@ ul{
 .techCoy-container{
   width: 90%;
   flex-wrap: wrap;
+  gap:2rem;
 }
 .coy{
-  flex-basis: 40%;
+  flex-basis: 50%;
   margin-bottom: 40px;
 }
 
