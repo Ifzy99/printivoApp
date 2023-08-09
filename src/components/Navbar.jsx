@@ -12,12 +12,13 @@ function Navbar() {
           <div className='coyList'>Track Orders</div>
         </div>
 
+
+          <div className="coyList-Cont2">
           <div className='coyContact '>
-             <div className=''>Need help? Call:</div> 
-             <span className='text-primary num'>+2348091084333,+2348091085333</span>
+             <div className='hlp'>Need help? Call:</div> 
+             <span className='text-primary num'>+2348091084333</span>
           </div>
            
-          <div className='WC'>
             <div className="waLogo me-5">
                 <img src="image/watApp.svg" alt="" />
             </div>

@@ -3,13 +3,13 @@ ul{
   flex-direction: column;
   padding: unset;
 }
-
  li{
   list-style: none;
   font-size: .875rem;
   line-height: 1.25rem;
   padding-bottom: 0.5rem;
   color: #fff;
+  opacity: 70%;
 }
 
 
@@ -20,39 +20,39 @@ ul{
   margin: 0 auto;
   align-items:center;
 }
-
 .cotyListCon{
+  width: 80%;
   display:flex;
-  margin: 20px 100px;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 0.4rem 0;
+  text-align: center;
 }
-
 .coyList-Cont{
   display: flex;
+  gap: 2rem;
 }
-
 .coyList{
-  margin:0 20px;
+  font-size: 0.7rem;
 }
-
+.coyList-Cont2{
+  display: flex;
+  text-align: center;
+}
 .coyContact{
   display: flex;
+  font-size: 0.7rem;
 }
-.WC{
-  display: flex;
- 
-}
-
 .waLogo{
   margin: 0 50px;
 }
-
 .country{
   margin: 0 auto;
   justify-content: center;
   border:1px solid;
-  border-radius: 10%;
+  border-radius: 30%;
   padding: 0.3rem 0.7rem;
-  gap: 5px;
+  gap:5px;
 }
 
 
@@ -63,20 +63,38 @@ ul{
   margin: 0 auto;
   background-color:#efe5d8;
 }
-
 .heroCont{
   position: relative;
+  /* width: 80%; */
 }
-
 .menuToFixed{
   padding: 0 6%;
 }
-
-.heroToggler{
-  position:absolute;
-  left: 3px;
-  bottom: 3px;
+.menuToFixed img{
+   width: 120px;
 }
+.heroToggler{
+  display:none;
+}
+
+.offCont{
+  width: 85%;
+  margin: 0 auto;
+  visibility: hidden;
+}
+.cls{
+  text-align: end;
+}
+.offcanvas-body li{
+  color: #000;
+}
+.products{
+  margin: 15px 0;
+  opacity: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .mainServices{
   margin: 50px 0 0 0;
@@ -129,6 +147,7 @@ ul{
 .sCt{
   padding-right: 8%;
   color: rgb(113, 111, 111);
+ 
 }
 
 .handCard img{
@@ -445,28 +464,44 @@ ul{
     justify-content: space-between;
     padding: 3% 6%;
   }
-  .coyContact{
-    margin: 0;
+  .coyList-Cont{
+    display: none;
   }
-  .WC{
-    display: flex;
+  .coyList-Cont2{
+     gap: 4rem;
   }
-  .waLogo{
-    margin: 0 ;
+  .coyContact {
+    margin-top: 5px;
+    opacity:70%;
   }
-  .country{
-    margin: 0;
+  .hlp{
+    display: none;
   }
+ 
 
 
   #contTwo{
     width: 100%;
+    padding-top: 1.5rem;
+  }
+  .signIn {
+    font-size: 0.8rem;
+  }
+  .createA{
+    display: none;
+  }
+  .offCont{
+    width: 85%;
+    margin: 10px auto;
+    visibility:visible;
   }
   .mainServices{
     width: 90%;
     padding-bottom: 3rem;
   }
+  
   .textCont{
+    padding: 0;
     margin: 0 30px;
     width: 100%;
   }
